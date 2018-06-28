@@ -96,16 +96,17 @@ d) Fifth component: k4
 The fifth element of the data sifter is k4.
 k4: the swapping step k3 is performed on each case by sampling among the k4-percentile of its neighbors (fraction of closest neighbors from which to select the case to be swapped). In this example we are using values between 1% up to 100% with increments of 1%. We are not computing the contribution of k4 into the Data Sifter slider η yet.
 
-The selection of the values for k0-k4 is done in Section 1.9 below of this Rmd script.
+An example of the selection of the values for k0-k4 is shown below.
 
+```
+{r, Selection of k0-k4, eval=FALSE}
 ## Pick a value from each of the K_options below and type it into the k_raw
 k0_options <- c(0,1)
 k1_options <- c(0,0.05,0.10,0.15,0.20,0.25,0.30,0.35,0.40)
 k2_options <- c(0,1,2,3,4)
 k3_options <- c(0,0.05,0.1,0.15,0.2,0.25,0.3,0.35,0.4,0.45,0.5,0.55,0.6,0.65,0.7,0.75,0.8,0.85,0.9,0.95,1)
 k4_options <- seq(0.01,1,0.01)
-
-## Select the values for the 5 options k0-k4 of the DataSifter
+```
 
 # These are the values selected for this example
 k0 <- 0 # swapping of unstructured data features
