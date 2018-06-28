@@ -106,7 +106,6 @@ k1_options <- c(0,0.05,0.10,0.15,0.20,0.25,0.30,0.35,0.40)
 k2_options <- c(0,1,2,3,4)
 k3_options <- c(0,0.05,0.1,0.15,0.2,0.25,0.3,0.35,0.4,0.45,0.5,0.55,0.6,0.65,0.7,0.75,0.8,0.85,0.9,0.95,1)
 k4_options <- seq(0.01,1,0.01)
-```
 
 # These are the values selected for this example
 k0 <- 0 # swapping of unstructured data features
@@ -114,6 +113,7 @@ k1 <- 0.5 # % of data removal from the entire dataset (except unstructured featu
 k2 <- 2   # how many times to perform imputation on the "disrupted" dataset after k1
 k3 <- 1 # swapping of structured features (right now done on ALL features except the unstructured ones)
 k4 <- .5 # % of closest neighbors to choose from
+```
 
 ## Comparing Raw and Sifted Data records and distributions
 
