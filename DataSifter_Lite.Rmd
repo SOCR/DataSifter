@@ -1,0 +1,37 @@
+---
+title: "DataSifter_Lite"
+author: "Nina Zhou"
+date: "6/30/2018"
+output: html_document
+---
+
+#DataSifter Lite Version Guide
+
+##Installation
+```{r}
+library(plyr)
+packages<-c("methods","missForest", "Matrix", "missForest","plyr","wordspace","dplyr")
+lapply(packages, require, character.only = TRUE)
+if(!exists("dataSifter",mode = "function")) source("Datasifter_funcs.R")
+if(!exists("firstImp",mode = "function")) source("Datasifter_funcs.R")
+if(!exists("subjdist",mode = "function")) source("Datasifter_funcs.R")
+if(!exists("thinning",mode = "function")) source("Datasifter_funcs.R")
+
+#Simulate a complete dataset where y is a binary variable related to x1-x5. Here x5 is treated as unstructured variable.
+library(dplyr)
+x1<-runif(1000)
+x2<-runif(1000)
+x3<-runif(1000)
+x4<-runif(1000)
+x5<-runif(1000)
+
+data1<-data.frame(x_1=x1,x_2=x2,x_3=x3,x_4=x4,x_5=x5)
+data1$y=data1$x_1+data1$x_2-0.5*data1$x_3-2*data1$x_4+0.5*data1$x_5
+
+#Obtain sifted data
+siftedata<-dataSifter(level = "indep",data=data1,nomissing = TRUE)
+
+
+#Test
+```
+
