@@ -18,6 +18,8 @@
 #'
 #' @import methods missForest Matrix plyr dplyr wordspace
 #' 
+#' @importFrom magrittr "%>%"
+#' 
 #' @details When level="indep" each variable in the sifted dataset is independently generated from their empirical distribution from the original data.
 #' On the other hand, level="none" returns the original dataset. When some factors contain a level with empty value " ", it will likely to present "out of bounds" error.
 #'
