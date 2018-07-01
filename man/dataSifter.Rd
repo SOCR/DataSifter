@@ -30,6 +30,6 @@ Create a informative privacy-preserving dataset that guarantees subjects' privac
 When level="indep" each variable in the sifted dataset is independently generated from their empirical distribution from the original data.
 On the other hand, level="none" returns the original dataset. When some factors contain a level with empty value " ", it will likely to present "out of bounds" error.
 
-The process could take a while to run with large datasets. There will be three messages indicating the progress of the process. They are "Swap unstructred done", "Artifical missingness and imputation done",
-and "Swapping structured data done".
+The process could take a while to run with large datasets. There will be two messages indicating the progress of the process. They are Artifical missingness and imputation done",
+and "Obfuscation step done".
 }
