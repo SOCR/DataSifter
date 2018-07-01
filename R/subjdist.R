@@ -5,6 +5,7 @@
 #' @param completedata A complete data frame without missing values.
 #'
 #' @return Return a dataframe that shows sorted between subject distances according to structured variables.
+#' @import methods Matrix plyr wordspace
 #' @export
 subjdist<-function(completedata){
   numcols <- 1:ncol(completedata)
