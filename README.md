@@ -114,3 +114,11 @@ k2 <- 2   # how many times to perform imputation on the "disrupted" dataset afte
 k3 <- 1 # swapping of structured features (right now done on ALL features except the unstructured ones)
 k4 <- .5 # % of closest neighbors to choose from
 ```
+
+## `DataSifter` Installation
+
+To install `DataSifter.lite` run the following two commands in your R/RStudio shell:
+
+> # install.packages("devtools")  # just in case you don't already have hte R devtools package installed.
+> library(devtools)
+> install_github("SOCR/DataSifter")
