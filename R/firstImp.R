@@ -6,6 +6,8 @@
 #'
 #' @param maxiter Max number of iterations for missForest imputation.
 #' @return Returns imputed data.
+#' 
+#' @import missForest
 #' @export
 firstImp<-function(sepdata,maxiter=1){
   K<-missForest(sepdata,maxiter=maxiter)$ximp
