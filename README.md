@@ -119,6 +119,9 @@ k4 <- .5 # % of closest neighbors to choose from
 
 To install `DataSifter.lite` run the following two commands in your R/RStudio shell:
 
-> # install.packages("devtools")  # just in case you don't already have hte R devtools package installed.
-> library(devtools)
-> install_github("SOCR/DataSifter")
+```
+# install.packages("devtools")  # just in case you don't already have hte R devtools package installed.
+library(devtools)
+install_github("SOCR/DataSifter")
+```
+
