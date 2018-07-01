@@ -12,7 +12,7 @@ In a nutshell, responding to requests by researchers interested in examining spe
 
 ## Technology
 
-The DataSifter protocol is based on an algorithm that involves (data-governor controlled) iterative data manipulation that stochastically identifies candidate entries from the cases (e.g., subjects, participants, units) and features (e.g., variables or data elements) and subsequently selects, nullifies, and imputes the information. This process heavily relies on statistical multivariate imputation to preserve the joint distributions of the complex structured data archive. At each step, the algorithm generates a complete dataset that in aggregate closely resembles the intrinsic characteristics of the original cohort, however, on an the individual level (e.g., rows), the data are substantially obfuscated. This procedure drastically reduces the risks for subject re-identification by stratification, as meta-data for all subjects is repeatedly and lossily encoded. A number of techniques including mathematical modeling, statistical inference, probabilistic (re)sampling, and imputation methods are embedded in the DataSifter information obfuscation protocol.
+The DataSifter protocol is based on an algorithm that involves (data-governor controlled) iterative data manipulation that stochastically identifies candidate entries from the cases (e.g., subjects, participants, units) and features (e.g., variables or data elements) and subsequently selects, nullifies, and imputes the information. This process heavily relies on statistical multivariate imputation to preserve the joint distributions of the complex structured data archive. At each step, the algorithm generates a complete dataset that in aggregate closely resembles the intrinsic characteristics of the original cohort, however, on the individual level (e.g., rows), the data are substantially obfuscated. This procedure drastically reduces the risks for subject re-identification by stratification, as meta-data for all subjects is repeatedly and lossily encoded. A number of techniques including mathematical modeling, statistical inference, probabilistic (re)sampling, and imputation methods are embedded in the DataSifter information obfuscation protocol.
 
 ## Applications
 
@@ -75,7 +75,7 @@ List4 and List5 are specified by the data governor.
 
 ## Similarity/Distance metric between cases
 
-This step can calculate a variety of dissimilarity or distance metrics between cases/subjects. The function ecodist::distance() is written for extensibility and understandability, and it may not be efficient for use with large matrices. Initially, we only select numeric features. Later we may need to expand this to select factors/categorical features and strings/unstructured features. The default distance is the Bray-Curtis distance (more stable/fewer singularities). The results of distance() is a lower-triangular distance matrix as an object of class “dist”. With N representing the total number of cases, then the size of the distance vector is N(N−1)2.
+This step can calculate a variety of dissimilarity or distance metrics between cases/subjects. The function `ecodist::distance()` is written for extensibility and understandability, and it may not be efficient for use with large matrices. Initially, we only select numeric features. Later we may need to expand this to select factors/categorical features and strings/unstructured features. The default distance is the Bray-Curtis distance (more stable/fewer singularities). The results of `distance()` is a lower-triangular distance matrix as an object of class “dist”. With N representing the total number of cases, then the size of the distance vector is N(N−1)/2.
 
 ## Five Components of the Data Sifter η
 
@@ -100,7 +100,7 @@ An example of the selection of the values for k0-k4 is shown below.
 More information on DataSifter implementation and Validation is provided at www.DataSifter.org.
 ```
 {r, Selection of k0-k4, eval=FALSE}
-## Pick a value from each of the K_options below and type it into the k_raw
+## Pick a value from each of the k_options below and type it into the k_raw
 k0_options <- c(0,1)
 k1_options <- c(0,0.05,0.10,0.15,0.20,0.25,0.30,0.35,0.40)
 k2_options <- c(0,1,2,3,4)
@@ -117,11 +117,11 @@ k4 <- .5 # % of closest neighbors to choose from
 
 ## `DataSifter` Installation
 
-To install `DataSifter.lite` run the following two commands in your R/RStudio shell:
-
+To install `DataSifter` lite, run the following two commands in your R/RStudio shell:
 ```
-# install.packages("devtools")  # just in case you don't already have hte R devtools package installed.
+# install.packages("devtools")  # just in case you don't already have the R devtools package installed.
 library(devtools)
 install_github("SOCR/DataSifter")
 ```
+
 
