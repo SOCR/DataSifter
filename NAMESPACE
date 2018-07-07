@@ -2,6 +2,7 @@
 
 export(dataSifter)
 export(firstImp)
+export(pctMatch)
 export(subjdist)
 export(thinning)
 import(Matrix)
