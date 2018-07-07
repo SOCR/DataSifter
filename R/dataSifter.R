@@ -16,7 +16,7 @@
 #'
 #' @return Return sifted dataset.
 #'
-#' @import methods missForest Matrix plyr dplyr wordspace
+#' @import methods missForest Matrix dplyr wordspace
 #' 
 #' @importFrom magrittr "%>%"
 #' 
