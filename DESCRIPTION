@@ -1,0 +1,13 @@
+Package: DataSifter.lite
+Type: Package
+Title: Lite Version of DataSifter Algorithm to Create Privacy-preserving Data 
+Version: 0.1.0
+Author: Nina Zhou, Simeone Marino, Ivo D. Dinov
+Maintainer: Nina Zhou <zhounina@umich.edu>, SOCR <statistics@umich.edu> 
+Description: The DataSifter package contains a set of effective tools for raw data preprocessing, subject obfuscation, creation of information- and privacy-preserving datasets from raw data. It guarantees subjects' privacy while preserving the most information contained in the original dataset (relative energy preservation). DataSifter allows user-defined privacy levels to be added to the dataset.
+License: GPL (>= 2)
+Imports: methods,missForest,Matrix,plyr,dplyr,wordspace
+Encoding: UTF-8
+Depends: R(>= 3.4.2),missForest,dplyr
+LazyData: true
+RoxygenNote: 6.0.1
