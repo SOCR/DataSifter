@@ -1,5 +1,5 @@
 ### DataSifter small application
-
+library(DataSifter.lite)
 #Generate original data
 set.seed(1234)
 x1<-runif(1000)
