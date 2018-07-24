@@ -1,28 +1,18 @@
 # SOCR: Electronic Medical Record DataSifter
 
+<!--ToC-->
 Table of Contents
 =================
-
-# Table of Contents
-1. [Example](#example)
-2. [Example2](#example2)
-3. [Third Example](#third-example)
-
-## Example
-## Example2
-## Third Example
-
-<!--ToC-->
    * [Authors](#authors)
    * [Motivation](#motivation)
    * [Background](#background)
    * [Technology](#technology)
    * [Applications](#applications)
    * [Advantages](#advantages)
-   * [Software/materials](#software/materials)
+   * [Software/materials](#software-materials)
    * [Notes](#notes)
    * [Input Data Types](#input-data-types)
-   * [Similarity/Distance metric between cases](#similarity/distance-metric-between-cases)
+   * [Similarity/Distance metric between cases](#similarity-distance-metric-between-cases)
    * [Five Components of the Data Sifter η](#five-components-of-the-data-sifter-η)
    * [DataSifter Installation](#datasifter-installation)
    * [Demo](#demo)
@@ -64,7 +54,7 @@ The new method has some advantages:
 
 3. As the data governors can keep their mapping between the native subject identifiers (e.g., EMR, SSN) and the study-specific subject IDs (sequential or random), the size and complexity of the data collection may easily be extended to add additional longitudinal data augmenting previously generated DataSifter output datasets. This allows a mechanism for meaningful aggregation of obfuscated data.
 
-## Software/materials
+## Software materials
 
 In the implementation of DataSifter, we used SOCR libraries (http://socr.umich.edu/html/SOCR_CitingLicense.html) and R software (https://www.r-project.org/Licenses/). More information is provided at www.DataSifter.org.
 
@@ -103,7 +93,7 @@ is likely NOT CATEGORICAL.
 
 List4 and List5 are specified by the data governor.
 
-## Similarity/Distance metric between cases
+## Similarity Distance metric between cases
 
 This step can calculate a variety of dissimilarity or distance metrics between cases/subjects. The function `ecodist::distance()` is written for extensibility and understandability, and it may not be efficient for use with large matrices. Initially, we only select numeric features. Later we may need to expand this to select factors/categorical features and strings/unstructured features. The default distance is the Bray-Curtis distance (more stable/fewer singularities). The results of `distance()` is a lower-triangular distance matrix as an object of class “dist”. With N representing the total number of cases, then the size of the distance vector is N(N−1)/2.
 
