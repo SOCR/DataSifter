@@ -13,19 +13,19 @@ Table of Contents
 ## Third Example
 
 <!--ToC-->
-   * [Authors](#Authors)
-   * [Motivation](#Motivation)
-   * [Background](#Background)
-   * [Technology](#Technology)
-   * [Applications](#Applications)
-   * [Advantages](#Advantages)
-   * [Software/materials](#Software/materials)
-   * [Notes](#Notes)
-   * [Input Data Types](#Input Data Types)
-   * [Similarity/Distance metric between cases](#Similarity/Distance metric between cases)
-   * [Five Components of the Data Sifter η](#Five Components of the Data Sifter η)
-   * [DataSifter Installation](#DataSifter Installation)
-   * [Demo](#Demo)
+   * [Authors](#authors)
+   * [Motivation](#motivation)
+   * [Background](#background)
+   * [Technology](#technology)
+   * [Applications](#applications)
+   * [Advantages](#advantages)
+   * [Software/materials](#software/materials)
+   * [Notes](#notes)
+   * [Input Data Types](#input-data-types)
+   * [Similarity/Distance metric between cases](#similarity/distance-metric-between-cases)
+   * [Five Components of the Data Sifter η](#five-components-of-the-data-sifter-η)
+   * [DataSifter Installation](#datasifter-installation)
+   * [Demo](#demo)
 <!--ToC-->
 
 ## Authors
