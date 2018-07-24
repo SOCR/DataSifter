@@ -19,7 +19,7 @@ Table of Contents
 <!--ToC-->
 
 ## Authors
-Simeone Marino, Nina Zhou, and Ivo D. Dinov
+[Simeone Marino](http://www.socr.umich.edu/people/), [Nina Zhou](http://www.socr.umich.edu/people/), and [Ivo D. Dinov](http://umich.edu/~dinov)
 
 ## Motivation
 Currently, there are no practical, scientifically reliable, and effective mechanisms to share real clinical data containing no clearly identifiable personal health information (PHI) without compromising either the value of the data (by excessively scrambling/encoding the information) or by introducing a substantial risk for re-identification of individuals by various stratification techniques.
