@@ -1,7 +1,28 @@
 # SOCR: Electronic Medical Record DataSifter
 
+Table of Contents
+=================
+
+<!--ToC-->
+   * [Authors](#Authors)
+   * [Motivation](#Motivation)
+   * [Background](#Background)
+   * [Technology](#Technology)
+   * [Applications](#Applications)
+   * [Advantages](#Advantages)
+   * [Software/materials](#Software/materials)
+   * [Notes](#Notes)
+   * [Input Data Types](#Input Data Types)
+   * [Similarity/Distance metric between cases](#Similarity/Distance metric between cases)
+   * [Five Components of the Data Sifter η](#Five Components of the Data Sifter η)
+   * [DataSifter Installation](#DataSifter Installation)
+   * [Demo](#Demo)
+<!--ToC-->
+
+## Authors
 Simeone Marino, Nina Zhou, and Ivo D. Dinov
 
+## Motivation
 Currently, there are no practical, scientifically reliable, and effective mechanisms to share real clinical data containing no clearly identifiable personal health information (PHI) without compromising either the value of the data (by excessively scrambling/encoding the information) or by introducing a substantial risk for re-identification of individuals by various stratification techniques.
 
 ## Background
@@ -43,7 +64,7 @@ In terms of implementation, repeated user requests for the same cohort data (e.g
 
 The DataSifter site provides additional information about this new technology. Handling unstructured data, strings or non-ordinal data: By default, the DataSifter randomly swaps such features between cases/participants, subject to determining close pairs of cases using appropriate distance metrics defined on the structured quantitative features in the data. More advanced techniques using NLP and ML methods may be employed to transform unstructured data into structured data elements that can be jointly utilized in the DataSifting process.
 
-## List of features to be handled
+## Input Data Types
 
 Ideally we want to know 5 lists of feature types as an input:
 
@@ -124,4 +145,10 @@ library(devtools)
 install_github("SOCR/DataSifter")
 ```
 
-
+## Demo
+The `DataSifter.lite` `demo()` function may be called to run a quick simulation that will illustrate the typical inptuts, processing steps, intermediate and final outputs, numerical results, and visualization plots.
+```
+# Make sure you first install the `DataSifter.lite` packages as shown in the Installation section
+library(DataSifter.lite)
+demo(DataSifter_func)
+```
