@@ -3,8 +3,14 @@
 Table of Contents
 =================
 
-<a name="Authors">Authors</a><br/>
-<a name="Motivation">Motivation</a><br/>
+# Table of Contents
+1. [Example](#example)
+2. [Example2](#example2)
+3. [Third Example](#third-example)
+
+## Example
+## Example2
+## Third Example
 
 <!--ToC-->
    * [Authors](#Authors)
