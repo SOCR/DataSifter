@@ -149,5 +149,7 @@ The `DataSifter.lite` `demo()` function may be called to run a quick simulation 
 ```
 # Make sure you first install the `DataSifter.lite` packages as shown in the Installation section
 library(DataSifter.lite)
+# to check that the DataSifter.lite demo function, `DataSifter_func()`, is there try:
+demo(package=.packages(all.available = TRUE))
 demo(DataSifter_func)
 ```
