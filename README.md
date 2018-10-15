@@ -137,7 +137,6 @@ k4 <- .5 # % of closest neighbors to choose from
 ```
 
 ## `DataSifter` Installation
-
 To install `DataSifter` lite, run the following two commands in your R/RStudio shell:
 ```
 # install.packages("devtools")  # just in case you don't already have the R devtools package installed.
@@ -156,4 +155,4 @@ demo(DataSifter_func)
 ```
 
 ## Acknowledgments
-US Patent Application 16/051,881 (August 1, 2018).
+US Patent Application 16/051881 (August 1, 2018).
