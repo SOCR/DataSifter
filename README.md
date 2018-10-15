@@ -16,6 +16,7 @@ Table of Contents
    * [Five Components of the Data Sifter η](#five-components-of-the-data-sifter-η)
    * [DataSifter Installation](#datasifter-installation)
    * [Demo](#demo)
+   * [Acknowledgments](#acknowlegments)
 <!--ToC-->
 
 ## Authors
@@ -153,3 +154,6 @@ library(DataSifter.lite)
 demo(package=.packages(all.available = TRUE))
 demo(DataSifter_func)
 ```
+
+## Acknowledgments
+US Patent Application 16/051,881 (August 1, 2018).
