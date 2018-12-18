@@ -16,7 +16,7 @@ Table of Contents
    * [Five Components of the Data Sifter η](#five-components-of-the-data-sifter-η)
    * [DataSifter Installation](#datasifter-installation)
    * [Demo](#demo)
-   * [Acknowledgments](#acknowlegments)
+   * [Acknowledgments](#acknowledgments)
 <!--ToC-->
 
 ## Authors
