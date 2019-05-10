@@ -1,5 +1,8 @@
 # SOCR: Electronic Medical Record DataSifter
 
+<a href="http://datasifter.org/"><img align="middle" src="https://raw.githubusercontent.com/SOCR/DataSifter/master/SataSifter_wordcloud.png"></a>
+
+
 <!--ToC-->
 Table of Contents
 =================
