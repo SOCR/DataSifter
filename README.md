@@ -162,3 +162,5 @@ demo(DataSifter_func)
 - US Patent Application 16/051881 (August 1, 2018).
 
 - Marino, S, Zhou, N, Zhao, Yi, Wang, L, Wu Q, and Dinov, ID. (2018) [DataSifter: Statistical Obfuscation of Electronic Health Records and Other Sensitive Datasets, Journal of Statistical Computation and Simulation, 89(2): 249–271, DOI: 10.1080/00949655.2018.1545228](https://doi.org/10.1080/00949655.2018.1545228).
+
+- [DataSifter Version II (V 2.0)](https://github.com/SOCR/DataSifterII)
