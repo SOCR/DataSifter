@@ -159,7 +159,7 @@ demo(DataSifter_func)
 
 ## Acknowledgments
 
-- US Patent Application 16/051881 (August 1, 2018).
+- Dinov, ID, Vandervest, J, and Marino, S. (Sept. 15, 2020). [Electronic Medical Record Datasifter](https://uspto.report/patent/grant/10,776,516), US Patent Awarded, [No.10,776,516](https://uspto.report/patent/grant/10,776,516), [Patent Doc Image](https://pdfpiw.uspto.gov/.piw?Docid=10776516). 
 
 - Marino, S, Zhou, N, Zhao, Yi, Wang, L, Wu Q, and Dinov, ID. (2018) [DataSifter: Statistical Obfuscation of Electronic Health Records and Other Sensitive Datasets, Journal of Statistical Computation and Simulation, 89(2): 249–271, DOI: 10.1080/00949655.2018.1545228](https://doi.org/10.1080/00949655.2018.1545228).
 
