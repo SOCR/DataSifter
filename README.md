@@ -19,6 +19,7 @@ Table of Contents
    * [Five Components of the Data Sifter η](#five-components-of-the-data-sifter-η)
    * [DataSifter Installation](#datasifter-installation)
    * [Demo](#demo)
+   * [See also](#see-also)
    * [Acknowledgments](#acknowledgments)
 <!--ToC-->
 
@@ -156,6 +157,11 @@ library(DataSifter.lite)
 demo(package=.packages(all.available = TRUE))
 demo(DataSifter_func)
 ```
+
+## See also
+* [DataSifter II (longitudinal Data)](https://github.com/SOCR/DataSifterII)
+* [DataSifter Text](https://github.com/SOCR/DataSifterText).
+
 
 ## Acknowledgments
 
