@@ -164,9 +164,11 @@ demo(DataSifter_func)
 
 
 ## Acknowledgments
-
-- Dinov, ID, Vandervest, J, and Marino, S. (Sept. 15, 2020). [Electronic Medical Record Datasifter](https://uspto.report/patent/grant/10,776,516), US Patent Awarded, [No.10,776,516](https://uspto.report/patent/grant/10,776,516), [Patent Doc Image](https://pdfpiw.uspto.gov/.piw?Docid=10776516). 
-
-- Marino, S, Zhou, N, Zhao, Yi, Wang, L, Wu Q, and Dinov, ID. (2018) [DataSifter: Statistical Obfuscation of Electronic Health Records and Other Sensitive Datasets, Journal of Statistical Computation and Simulation, 89(2): 249–271, DOI: 10.1080/00949655.2018.1545228](https://doi.org/10.1080/00949655.2018.1545228).
-
-- [DataSifter Version II (V 2.0)](https://github.com/SOCR/DataSifterII)
+*  Dinov, ID, Vandervest, J, and Marino, S. (Sept. 15, 2020). [Electronic Medical Record Datasifter](https://uspto.report/patent/grant/10,776,516), US Patent Awarded, [No.10,776,516](https://uspto.report/patent/grant/10,776,516), [Patent Doc Image](https://pdfpiw.uspto.gov/.piw?Docid=10776516). 
+*  Marino, S, Zhou, N, Zhao, Yi, Wang, L, Wu Q, and Dinov, ID. (2018) [DataSifter: Statistical Obfuscation of Electronic Health Records and Other Sensitive Datasets, Journal of Statistical Computation and Simulation, 89(2): 249–271, DOI: 10.1080/00949655.2018.1545228](https://doi.org/10.1080/00949655.2018.1545228).
+## References
+* [DataSifter-Lite (V 1.0)](https://github.com/SOCR/DataSifter) 
+* [DataSifter website](http://datasifter.org)
+* Marino, S, Zhou, N, Zhao, Yi, Wang, L, Wu Q, and Dinov, ID. (2019) [DataSifter: Statistical Obfuscation of Electronic Health Records and Other Sensitive Datasets](https://doi.org/10.1080/00949655.2018.1545228), Journal of Statistical Computation and Simulation, 89(2): 249–271, DOI: 10.1080/00949655.2018.1545228.
+* Zhou, N, Wang, L, Marino, S, Zhao, Y, Dinov, ID. (2022) [DataSifter II: Partially Synthetic Data Sharing of Sensitive Information Containing Time-varying Correlated Observations](https://journals.sagepub.com/loi/acta), [Journal of Algorithms & Computational Technology](https://journals.sagepub.com/loi/acta), Volume 15: 1–17, DOI: [10.1177/17483026211065379](https://doi.org/10.1177/17483026211065379).
+* [DataSifter Version II (V 2.0)](https://github.com/SOCR/DataSifterII)
